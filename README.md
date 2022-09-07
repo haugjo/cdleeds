@@ -51,7 +51,7 @@ detector.add_to_monitored_sample(x_init)
 while stream.has_more_samples():
     x, y = stream.next_sample(batch_size=1)  # Note: CDLEEDS also works with larger batch sizes.
     
-    # Update the CDLEEDS clustering tree
+    # Update CDLEEDS.
     detector.partial_fit(x, model.predict_proba(x))
     
     # Check for local change.
