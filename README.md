@@ -3,7 +3,7 @@ This repository contains an implementation of the CDLEEDS local change detection
 
 *Johannes Haug, Alexander Braun, Stefan Zürn, and Gjergji Kasneci. 
 "Change Detection for Local Explainability in Evolving Data Streams." 
-31st International Conference on Information and Knowledge Management (CIKM'22). 2022. arXiv:*
+31st International Conference on Information and Knowledge Management (CIKM'22). 2022. [arXiv](https://doi.org/10.48550/arXiv.2209.02764).*
 
 CDLEEDS can serve as a model-agnostic **extension of local attribution methods in data stream applications**,
 and/or as an effective **local and global concept drift detection model**.
